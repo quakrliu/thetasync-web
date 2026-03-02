@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { useI18n } from '@/i18n/context';
 import { Menu, X, Globe } from 'lucide-react';
 
@@ -21,10 +22,16 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#FFD700] to-[#FFA500] flex items-center justify-center">
-              <span className="text-[#0B132B] font-bold text-sm">θ</span>
-            </div>
-            <span className="text-white font-semibold text-lg">ThetaSync</span>
+            <Image
+              src="/logo.png"
+              alt="ThetaSync Logo"
+              width={36}
+              height={36}
+              className="rounded-lg"
+            />
+            <span className="text-white font-semibold text-lg">
+              {locale === 'zh-TW' ? '希塔之引' : 'ThetaSync'}
+            </span>
           </a>
 
           {/* Desktop Nav */}

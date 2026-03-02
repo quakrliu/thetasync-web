@@ -134,7 +134,7 @@ export const translations = {
 
     // Hero
     'hero.badge': 'AI 驅動的信念轉化',
-    'hero.title': '轉化你的信念，',
+    'hero.title': '轉化你的信念',
     'hero.titleHighlight': '轉化你的人生',
     'hero.subtitle':
       '希塔之引引導你進行深層的信念轉化——從 AI 信念挖掘到第七界冥想——全部整合在一個精美的 App 中。',

@@ -1,10 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import { useI18n } from '@/i18n/context';
 import { Heart } from 'lucide-react';
 
 export default function Footer() {
-  const { t } = useI18n();
+  const { locale, t } = useI18n();
 
   return (
     <footer className="border-t border-white/10 py-12">
@@ -13,11 +14,16 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#FFD700] to-[#FFA500] flex items-center justify-center">
-                <span className="text-[#0B132B] font-bold text-sm">θ</span>
-              </div>
-              <span className="text-white font-semibold text-lg">ThetaSync</span>
-              <span className="text-white/40 text-sm ml-1">希塔之引</span>
+              <Image
+                src="/logo.png"
+                alt="ThetaSync Logo"
+                width={36}
+                height={36}
+                className="rounded-lg"
+              />
+              <span className="text-white font-semibold text-lg">
+                {locale === 'zh-TW' ? '希塔之引' : 'ThetaSync'}
+              </span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               {t('footer.description')}
