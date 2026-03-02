@@ -3,18 +3,38 @@
 import { useState } from 'react';
 import { useI18n } from '@/i18n/context';
 import { motion } from 'framer-motion';
-import { Send, CheckCircle } from 'lucide-react';
+import { Send, CheckCircle, Loader2 } from 'lucide-react';
+
+const GOOGLE_SCRIPT_URL =
+  'https://script.google.com/macros/s/AKfycbw7_B6VVy1LS0lsCjvqz_iRUAqzxs1Yzo77kYJDWFHnRAqU63LypWtm8CAYhqmyJK1_Nw/exec';
 
 export default function CTA() {
   const { t } = useI18n();
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim()) {
+    if (!email.trim() || loading) return;
+
+    setLoading(true);
+    setError(false);
+
+    try {
+      await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email.trim() }),
+      });
       setSubmitted(true);
       setEmail('');
+    } catch {
+      setError(true);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -64,11 +84,17 @@ export default function CTA() {
               />
               <button
                 type="submit"
-                className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-[#FFD700] to-[#FFA500] text-[#0B132B] font-semibold hover:shadow-lg hover:shadow-[#FFD700]/25 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                disabled={loading}
+                className="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-[#FFD700] to-[#FFA500] text-[#0B132B] font-semibold hover:shadow-lg hover:shadow-[#FFD700]/25 transition-all flex items-center justify-center gap-2 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                <Send className="w-4 h-4" />
+                {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                 {t('cta.button')}
               </button>
+              {error && (
+                <p className="text-[#FF6B6B] text-sm mt-2 w-full text-center">
+                  Something went wrong. Please try again.
+                </p>
+              )}
             </form>
           )}
 
