@@ -70,8 +70,15 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Disclaimer */}
+        <div className="mt-8 pt-6 border-t border-white/5">
+          <p className="text-white/20 text-xs leading-relaxed text-center max-w-3xl mx-auto">
+            {t('footer.disclaimer' as any)}
+          </p>
+        </div>
+
         {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-6 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-sm">{t('footer.copyright')}</p>
           <p className="flex items-center gap-1.5 text-white/30 text-sm">
             {t('footer.tagline')} <Heart className="w-3.5 h-3.5 text-[#FFD700]" />

@@ -159,6 +159,8 @@ export const translations = {
     'footer.privacy': 'Privacy Policy',
     'footer.terms': 'Terms of Service',
     'footer.copyright': '© 2025 ThetaSync. All rights reserved.',
+    'footer.disclaimer':
+      'Disclaimer: ThetaSync is a meditation and personal growth tool. It does not provide medical, psychological, or therapeutic advice and is not a substitute for professional healthcare. Consult a qualified professional for any health concerns.',
   },
 
   'zh-TW': {
@@ -318,6 +320,8 @@ export const translations = {
     'footer.privacy': '隱私政策',
     'footer.terms': '服務條款',
     'footer.copyright': '© 2025 ThetaSync 希塔之引。保留所有權利。',
+    'footer.disclaimer':
+      '免責聲明：希塔之引是一款冥想與個人成長工具，不提供醫療、心理或治療建議，亦不能替代專業醫療服務。如有健康疑慮，請諮詢合格的專業人士。',
   },
 } as const;
 
