@@ -8,11 +8,11 @@ export const translations = {
     'nav.download': 'Get Early Access',
 
     // Hero
-    'hero.badge': 'AI-Powered Theta Healing',
+    'hero.badge': 'AI-Powered Belief Transformation',
     'hero.title': 'Transform Your Beliefs,',
     'hero.titleHighlight': 'Transform Your Life',
     'hero.subtitle':
-      'ThetaSync guides you through authentic Theta Healing practices — from AI-powered belief digging to 7th Plane meditation — all in one beautiful app.',
+      'ThetaSync guides you through deep belief transformation — from AI-powered belief digging to 7th Plane meditation — all in one beautiful app.',
     'hero.cta': 'Join the Waitlist',
     'hero.ctaSecondary': 'Learn More',
     'hero.comingSoon': 'Coming soon to iOS & Android',
@@ -22,11 +22,11 @@ export const translations = {
     'features.title': 'Everything You Need for',
     'features.titleHighlight': 'Deep Healing',
     'features.subtitle':
-      'A complete Theta Healing toolkit designed to support your daily practice and spiritual growth.',
+      'A complete belief transformation toolkit designed to support your daily practice and spiritual growth.',
 
     'features.digging.title': 'AI Digging Coach',
     'features.digging.desc':
-      'Have a real-time voice conversation with an AI trained in Theta Healing digging techniques. Uncover root beliefs across all four levels — Core, Genetic, History, and Soul.',
+      'Have a real-time voice conversation with an AI trained in deep belief digging techniques. Uncover root beliefs across all four levels — Core, Genetic, History, and Soul.',
 
     'features.meditation.title': '7th Plane Meditation',
     'features.meditation.desc':
@@ -46,7 +46,7 @@ export const translations = {
 
     'features.ritual.title': 'Pull & Replace Ritual',
     'features.ritual.desc':
-      'Complete the full Theta Healing ritual — pull negative beliefs from all four levels across all timelines, replace with positive ones, and seal with Creator\'s light.',
+      'Complete the full belief transformation ritual — pull negative beliefs from all four levels across all timelines, replace with positive ones, and seal with Creator\'s light.',
 
     // Meditation Preview
     'meditation.badge': 'Guided Experience',
@@ -67,7 +67,7 @@ export const translations = {
     'testimonials.1.text':
       'The AI digging coach helped me uncover a root belief I\'d been carrying since childhood. The guided ritual to pull and replace it was incredibly powerful.',
     'testimonials.1.author': 'Sarah M.',
-    'testimonials.1.role': 'Theta Healing Practitioner',
+    'testimonials.1.role': 'Belief Work Practitioner',
 
     'testimonials.2.text':
       'I love the daily belief downloads. Starting each morning with a new affirmation from Creator has completely shifted my energy. The streak tracker keeps me consistent.',
@@ -75,7 +75,7 @@ export const translations = {
     'testimonials.2.role': 'Daily Practitioner',
 
     'testimonials.3.text':
-      'The 7th Plane meditation guide is beautifully crafted. As someone new to Theta Healing, this app made the ascension process so much easier to follow.',
+      'The 7th Plane meditation guide is beautifully crafted. As someone new to belief work, this app made the ascension process so much easier to follow.',
     'testimonials.3.author': 'Emily K.',
     'testimonials.3.role': 'Beginner Practitioner',
 
@@ -84,17 +84,17 @@ export const translations = {
     'faq.title': 'Frequently Asked',
     'faq.titleHighlight': 'Questions',
 
-    'faq.1.q': 'What is Theta Healing?',
+    'faq.1.q': 'What is ThetaSync?',
     'faq.1.a':
-      'Theta Healing is a meditation technique that uses the Theta brainwave to connect with the Creator of All That Is (the 7th Plane of Existence). Through this connection, practitioners can identify and transform limiting beliefs at four levels: Core, Genetic, History, and Soul.',
+      'ThetaSync is a meditation and belief work app that uses theta brainwave techniques to connect with the Creator of All That Is (the 7th Plane of Existence). Through this connection, practitioners can identify and transform limiting beliefs at four levels: Core, Genetic, History, and Soul.',
 
-    'faq.2.q': 'Do I need prior experience with Theta Healing?',
+    'faq.2.q': 'Do I need prior experience with belief work?',
     'faq.2.a':
       'Not at all! ThetaSync is designed for both beginners and experienced practitioners. The guided meditation walks you through every step, and the AI coach adapts to your level of experience.',
 
     'faq.3.q': 'How does the AI Digging Coach work?',
     'faq.3.a':
-      'The AI coach uses advanced language models trained in Theta Healing digging techniques. You can speak naturally, and it will guide you through the digging process to uncover root beliefs — asking the right questions to help you go deeper.',
+      'The AI coach uses advanced language models trained in deep belief digging techniques. You can speak naturally, and it will guide you through the digging process to uncover root beliefs — asking the right questions to help you go deeper.',
 
     'faq.4.q': 'Is my data private?',
     'faq.4.a':
@@ -116,7 +116,7 @@ export const translations = {
     // Footer
     'footer.tagline': 'Made with love & intention',
     'footer.description':
-      'AI-powered Theta Healing companion for daily practice, belief work, and spiritual growth.',
+      'AI-powered belief transformation companion for daily practice, meditation, and spiritual growth.',
     'footer.product': 'Product',
     'footer.legal': 'Legal',
     'footer.privacy': 'Privacy Policy',
@@ -133,11 +133,11 @@ export const translations = {
     'nav.download': '搶先體驗',
 
     // Hero
-    'hero.badge': 'AI 驅動的希塔療癒',
+    'hero.badge': 'AI 驅動的信念轉化',
     'hero.title': '轉化你的信念，',
     'hero.titleHighlight': '轉化你的人生',
     'hero.subtitle':
-      '希塔之引引導你進行正宗的希塔療癒——從 AI 信念挖掘到第七界冥想——全部整合在一個精美的 App 中。',
+      '希塔之引引導你進行深層的信念轉化——從 AI 信念挖掘到第七界冥想——全部整合在一個精美的 App 中。',
     'hero.cta': '加入等候名單',
     'hero.ctaSecondary': '了解更多',
     'hero.comingSoon': '即將登陸 iOS 和 Android',
@@ -146,11 +146,11 @@ export const translations = {
     'features.badge': '核心功能',
     'features.title': '深度療癒',
     'features.titleHighlight': '所需的一切',
-    'features.subtitle': '一套完整的希塔療癒工具，支持你的每日練習和靈性成長。',
+    'features.subtitle': '一套完整的信念轉化工具，支持你的每日練習和靈性成長。',
 
     'features.digging.title': 'AI 挖掘教練',
     'features.digging.desc':
-      '與經過希塔療癒挖掘技術訓練的 AI 進行即時語音對話。揭開四個信念層級——核心層、遺傳層、歷史層、靈魂層——的根源信念。',
+      '與經過深層信念挖掘技術訓練的 AI 進行即時語音對話。揭開四個信念層級——核心層、遺傳層、歷史層、靈魂層——的根源信念。',
 
     'features.meditation.title': '第七界冥想',
     'features.meditation.desc':
@@ -170,7 +170,7 @@ export const translations = {
 
     'features.ritual.title': '拔除置換儀式',
     'features.ritual.desc':
-      '完成完整的希塔療癒儀式——從所有時間線的四個層級中拔除負面信念，置換為正面信念，並以造物主的光封印。',
+      '完成完整的信念轉化儀式——從所有時間線的四個層級中拔除負面信念，置換為正面信念，並以造物主的光封印。',
 
     // Meditation Preview
     'meditation.badge': '引導體驗',
@@ -191,7 +191,7 @@ export const translations = {
     'testimonials.1.text':
       'AI 挖掘教練幫助我發現了一個從童年就一直攜帶的根源信念。引導我進行拔除和置換的儀式，感受非常強大。',
     'testimonials.1.author': 'Sarah M.',
-    'testimonials.1.role': '希塔療癒師',
+    'testimonials.1.role': '信念轉化療癒師',
 
     'testimonials.2.text':
       '我非常喜歡每日信念下載。每天早上以造物主的新肯定句開始，完全轉變了我的能量。連續紀錄讓我保持一致。',
@@ -199,7 +199,7 @@ export const translations = {
     'testimonials.2.role': '每日練習者',
 
     'testimonials.3.text':
-      '第七界冥想引導做得非常精美。作為希塔療癒的初學者，這個 App 讓上升的過程變得容易許多。',
+      '第七界冥想引導做得非常精美。作為信念工作的初學者，這個 App 讓上升的過程變得容易許多。',
     'testimonials.3.author': 'Emily K.',
     'testimonials.3.role': '初學練習者',
 
@@ -208,17 +208,17 @@ export const translations = {
     'faq.title': '常見',
     'faq.titleHighlight': '問答',
 
-    'faq.1.q': '什麼是希塔療癒？',
+    'faq.1.q': '什麼是 ThetaSync？',
     'faq.1.a':
-      '希塔療癒是一種冥想技術，利用 Theta 腦波連結萬有造物主（第七存在界面）。透過這個連結，療癒師可以在四個層級——核心層、遺傳層、歷史層、靈魂層——辨識並轉化限制性信念。',
+      'ThetaSync 是一款冥想與信念工作 App，運用 Theta 腦波技術連結萬有造物主（第七存在界面）。透過這個連結，練習者可以在四個層級——核心層、遺傳層、歷史層、靈魂層——辨識並轉化限制性信念。',
 
-    'faq.2.q': '我需要有希塔療癒的經驗嗎？',
+    'faq.2.q': '我需要有信念工作的經驗嗎？',
     'faq.2.a':
       '完全不需要！希塔之引同時為初學者和有經驗的療癒師設計。引導冥想會帶你完成每一個步驟，AI 教練也會根據你的經驗程度調整。',
 
     'faq.3.q': 'AI 挖掘教練如何運作？',
     'faq.3.a':
-      'AI 教練使用先進的語言模型，經過希塔療癒挖掘技術的訓練。你可以自然地說話，它會引導你進行挖掘過程，揭開根源信念——提出正確的問題，幫助你深入探索。',
+      'AI 教練使用先進的語言模型，經過深層信念挖掘技術的訓練。你可以自然地說話，它會引導你進行挖掘過程，揭開根源信念——提出正確的問題，幫助你深入探索。',
 
     'faq.4.q': '我的資料安全嗎？',
     'faq.4.a':
@@ -239,7 +239,7 @@ export const translations = {
 
     // Footer
     'footer.tagline': '以愛與意念打造',
-    'footer.description': 'AI 驅動的希塔療癒夥伴，支持每日練習、信念工作與靈性成長。',
+    'footer.description': 'AI 驅動的信念轉化夥伴，支持每日練習、冥想與靈性成長。',
     'footer.product': '產品',
     'footer.legal': '法律',
     'footer.privacy': '隱私政策',

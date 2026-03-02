@@ -13,21 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ThetaSync — AI-Powered Theta Healing Companion",
+  title: "ThetaSync — AI-Powered Belief Transformation Companion",
   description:
     "Transform your beliefs, transform your life. ThetaSync guides you through AI-powered belief digging, 7th Plane meditation, and daily belief downloads.",
   keywords: [
-    "theta healing",
+    "belief transformation",
     "meditation",
     "belief work",
     "spiritual growth",
     "AI coaching",
-    "希塔療癒",
-    "冥想",
     "信念轉化",
+    "冥想",
   ],
   openGraph: {
-    title: "ThetaSync — AI-Powered Theta Healing Companion",
+    title: "ThetaSync — AI-Powered Belief Transformation Companion",
     description:
       "Transform your beliefs, transform your life. AI-powered belief digging, 7th Plane meditation, and daily downloads.",
     type: "website",
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ThetaSync — AI-Powered Theta Healing Companion",
+    title: "ThetaSync — AI-Powered Belief Transformation Companion",
     description:
       "Transform your beliefs, transform your life.",
   },
