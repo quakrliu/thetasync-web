@@ -17,6 +17,43 @@ export const translations = {
     'hero.ctaSecondary': 'Learn More',
     'hero.comingSoon': 'Coming soon to iOS & Android',
 
+    // Pain Points
+    'pain.badge': 'Sound Familiar?',
+    'pain.title': 'The Challenges',
+    'pain.titleHighlight': 'Practitioners Face',
+    'pain.subtitle':
+      'Belief work is powerful — but practicing on your own can be frustrating.',
+
+    'pain.1.problem': 'Digging requires a partner',
+    'pain.1.detail':
+      'Traditional belief digging needs two people. Practicing solo means you hit a wall — no one to ask the right questions when you get stuck.',
+    'pain.1.solution': 'AI Digging Coach available 24/7 — no partner needed',
+
+    'pain.2.problem': 'Hard to stay consistent',
+    'pain.2.detail':
+      'Without structure or accountability, daily practice fades. You skip a day, then a week, and lose momentum on your healing journey.',
+    'pain.2.solution': 'Daily downloads, streak tracking & gentle reminders',
+
+    'pain.3.problem': 'Complex steps to memorize',
+    'pain.3.detail':
+      'The meditation ascension sequence, ritual wording, and belief level framework are hard to remember — especially for beginners.',
+    'pain.3.solution': 'Guided voice meditation & automated ritual scripts',
+
+    'pain.4.problem': 'No way to track progress',
+    'pain.4.detail':
+      'After months of practice, you can\'t see how far you\'ve come. Which beliefs have you cleared? How many sessions? What patterns emerged?',
+    'pain.4.solution': 'Belief database & detailed stats across all levels',
+
+    'pain.5.problem': 'Sessions are expensive',
+    'pain.5.detail':
+      'Working with a certified practitioner costs $150–300+ per session. Deep transformation requires many sessions over months.',
+    'pain.5.solution': 'Unlimited AI-guided sessions, anytime, anywhere',
+
+    'pain.6.problem': 'Language barriers',
+    'pain.6.detail':
+      'Most resources and practitioners only work in English. Non-English speakers struggle to find quality guidance in their native language.',
+    'pain.6.solution': 'Full bilingual support — English & Traditional Chinese',
+
     // Features
     'features.badge': 'Core Features',
     'features.title': 'Everything You Need for',
@@ -141,6 +178,42 @@ export const translations = {
     'hero.cta': '加入等候名單',
     'hero.ctaSecondary': '了解更多',
     'hero.comingSoon': '即將登陸 iOS 和 Android',
+
+    // Pain Points
+    'pain.badge': '你是否也遇到這些問題？',
+    'pain.title': '療癒師們',
+    'pain.titleHighlight': '共同的困擾',
+    'pain.subtitle': '信念工作的力量毋庸置疑——但獨自練習時，卻充滿挑戰。',
+
+    'pain.1.problem': '挖掘需要搭檔',
+    'pain.1.detail':
+      '傳統的信念挖掘需要兩個人配合。獨自練習時，沒有人能在你卡住的時候問出關鍵問題，很容易觸碰到瓶頸就停下來。',
+    'pain.1.solution': 'AI 挖掘教練 24/7 隨時待命，不需要搭檔',
+
+    'pain.2.problem': '難以持續練習',
+    'pain.2.detail':
+      '沒有固定結構和督促機制，每日練習很容易中斷。跳過一天，再跳過一週，療癒的動能就慢慢消失了。',
+    'pain.2.solution': '每日信念下載、連續紀錄追蹤，溫和地陪伴你',
+
+    'pain.3.problem': '步驟太多記不住',
+    'pain.3.detail':
+      '冥想上升的順序、儀式的措辭、四個信念層級的架構⋯⋯這些對初學者來說特別難以記住和執行。',
+    'pain.3.solution': '語音引導冥想 & 自動化儀式腳本',
+
+    'pain.4.problem': '看不到進步',
+    'pain.4.detail':
+      '練習了幾個月，卻看不到自己走了多遠。清除了哪些信念？做了幾次療程？出現了什麼模式？',
+    'pain.4.solution': '信念資料庫 & 跨層級的詳細統計數據',
+
+    'pain.5.problem': '療程費用昂貴',
+    'pain.5.detail':
+      '找合格療癒師做一次療程，費用往往在 $150–300 美元以上。深度的信念轉化需要持續多次療程。',
+    'pain.5.solution': '無限次 AI 引導療程，隨時隨地',
+
+    'pain.6.problem': '語言障礙',
+    'pain.6.detail':
+      '大部分資源和療癒師只提供英文服務。中文使用者很難找到高品質的母語引導。',
+    'pain.6.solution': '完整雙語支援——英文 & 繁體中文',
 
     // Features
     'features.badge': '核心功能',

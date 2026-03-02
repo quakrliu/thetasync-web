@@ -3,6 +3,7 @@
 import { I18nProvider } from '@/i18n/context';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import PainPoints from '@/components/PainPoints';
 import Features from '@/components/Features';
 import MeditationPreview from '@/components/MeditationPreview';
 import Testimonials from '@/components/Testimonials';
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <PainPoints />
         <Features />
         <MeditationPreview />
         <Testimonials />
