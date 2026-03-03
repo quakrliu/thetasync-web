@@ -26,8 +26,7 @@ export default function CTA() {
       await fetch(GOOGLE_SCRIPT_URL, {
         method: 'POST',
         mode: 'no-cors',
-        headers: { 'Content-Type': 'text/plain' },
-        body: JSON.stringify({ email: email.trim() }),
+        body: new URLSearchParams({ email: email.trim() }),
       });
       setSubmitted(true);
       setEmail('');
