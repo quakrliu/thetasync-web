@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useI18n } from '@/i18n/context';
-import { Heart } from 'lucide-react';
+import { Heart, Mail } from 'lucide-react';
 
 export default function Footer() {
   const { locale, t } = useI18n();
@@ -64,6 +64,12 @@ export default function Footer() {
               <li>
                 <a href="/terms" className="text-white/40 hover:text-[#FFD700] text-sm transition-colors">
                   {t('footer.terms')}
+                </a>
+              </li>
+              <li>
+                <a href={`mailto:${t('footer.supportEmail' as any)}`} className="text-white/40 hover:text-[#FFD700] text-sm transition-colors inline-flex items-center gap-1.5">
+                  <Mail className="w-3.5 h-3.5" />
+                  {t('footer.support' as any)}
                 </a>
               </li>
             </ul>
