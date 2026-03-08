@@ -40,8 +40,8 @@ function TermsContent() {
               </h2>
               <p>
                 {isZh
-                  ? 'ThetaSync 是一款冥想與個人成長輔助工具，提供以下功能：AI 驅動的信念挖掘教練、第七界引導冥想、每日信念下載、信念資料庫管理，以及拔除置換儀式引導。'
-                  : 'ThetaSync is a meditation and personal growth companion app that provides: an AI-powered belief digging coach, 7th Plane guided meditation, daily belief downloads, belief database management, and pull & replace ritual guidance.'}
+                  ? 'ThetaSync 是一款冥想與個人成長輔助工具，提供以下功能：AI 驅動的信念探索教練、源頭引導冥想、每日肯定語、信念資料庫管理，以及釋放與重塑引導。'
+                  : 'ThetaSync is a meditation and personal growth companion app that provides: an AI-powered belief exploration coach, Source guided meditation, daily affirmations, belief database management, and release & transform guidance.'}
               </p>
             </section>
 
@@ -88,7 +88,7 @@ function TermsContent() {
                 </li>
                 <li>
                   {isZh
-                    ? '了解 AI 教練是輔助工具，不能替代合格的療癒師或醫療專業人士'
+                    ? '了解 AI 教練是輔助工具，不能替代合格的專業人士或醫療專業人士'
                     : 'Understand that the AI coach is an assistive tool and not a replacement for a qualified practitioner or healthcare professional'}
                 </li>
               </ul>

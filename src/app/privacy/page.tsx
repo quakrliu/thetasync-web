@@ -47,7 +47,7 @@ function PrivacyContent() {
                 <li>
                   <strong className="text-white/90">{isZh ? '本地儲存的資料' : 'Locally stored data'}</strong>
                   {isZh
-                    ? '：您的信念、療程紀錄、設定和個人偏好全部儲存在您的裝置上，不會上傳至我們的伺服器。'
+                    ? '：您的信念、對話紀錄、設定和個人偏好全部儲存在您的裝置上，不會上傳至我們的伺服器。'
                     : ': Your beliefs, session history, settings, and personal preferences are all stored locally on your device and are never uploaded to our servers.'}
                 </li>
                 <li>
@@ -85,8 +85,8 @@ function PrivacyContent() {
                 <li>
                   <strong className="text-white/90">Google Gemini API</strong>
                   {isZh
-                    ? '：用於 AI 挖掘教練功能。您的對話內容會傳送至 Google 的伺服器進行處理。請參閱 Google 的隱私政策了解詳情。'
-                    : ': Powers the AI Digging Coach. Your conversation content is sent to Google servers for processing. Please refer to Google\'s Privacy Policy for details.'}
+                    ? '：用於 AI 信念教練功能。您的對話內容會傳送至 Google 的伺服器進行處理。請參閱 Google 的隱私政策了解詳情。'
+                    : ': Powers the AI Belief Coach. Your conversation content is sent to Google servers for processing. Please refer to Google\'s Privacy Policy for details.'}
                 </li>
                 <li>
                   <strong className="text-white/90">Google Cloud Text-to-Speech</strong>
