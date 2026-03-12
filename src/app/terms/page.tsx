@@ -17,7 +17,7 @@ function TermsContent() {
             {isZh ? '服務條款' : 'Terms of Service'}
           </h1>
           <p className="text-white/40 text-sm mb-10">
-            {isZh ? '最後更新：2025 年 1 月' : 'Last updated: January 2025'}
+            {isZh ? '最後更新：2026 年 3 月' : 'Last updated: March 2026'}
           </p>
 
           <div className="space-y-8 text-white/70 leading-relaxed">
@@ -60,6 +60,19 @@ function TermsContent() {
                     : 'ThetaSync is a meditation and personal growth tool. It does not provide medical, psychological, or therapeutic advice and is not a substitute for professional healthcare. The App is not intended to diagnose, treat, cure, or prevent any disease or health condition. Consult a qualified healthcare professional for any health concerns.'}
                 </p>
               </div>
+            </section>
+
+
+            {/* Trademark Disclaimer */}
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-3">
+                {isZh ? '商標聲明' : 'Trademark Disclaimer'}
+              </h2>
+              <p>
+                {isZh
+                  ? '本應用程式與 ThetaHealing®、THInK Institute 或任何官方療癒組織無隸屬、認證或背書關係。ThetaHealing® 是 THInK Institute 的註冊商標。應用程式中的「肌肉測試」等技巧屬於自我探索練習，並非經科學驗證的診斷方法。'
+                  : 'This application is not affiliated with, endorsed by, or certified by ThetaHealing®, THInK Institute, or any official healing organization. ThetaHealing® is a registered trademark of THInK Institute. Techniques such as "muscle testing" referenced in the app are self-exploration exercises and are not scientifically validated diagnostic methods.'}
+              </p>
             </section>
 
             {/* User Responsibilities */}
@@ -140,6 +153,46 @@ function TermsContent() {
                   ? '您的資料儲存在您的裝置本地端。我們不負責因裝置損壞、遺失或應用程式刪除而導致的資料遺失。我們強烈建議您定期使用應用程式內的匯出功能備份資料。'
                   : 'Your data is stored locally on your device. We are not responsible for data loss due to device damage, loss, or app deletion. We strongly recommend regularly backing up your data using the in-app export feature.'}
               </p>
+            </section>
+
+
+            {/* Subscription & In-App Purchases */}
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-3">
+                {isZh ? '訂閱與應用程式內購買' : 'Subscriptions & In-App Purchases'}
+              </h2>
+              <p className="mb-3">
+                {isZh
+                  ? 'ThetaSync 提供免費功能及付費訂閱方案（Premium）。關於訂閱，請注意以下事項：'
+                  : 'ThetaSync offers free features and a paid subscription plan (Premium). Regarding subscriptions, please note:'}
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-2">
+                <li>
+                  {isZh
+                    ? '訂閱費用將透過您的 Apple ID 或 Google Play 帳戶收取。'
+                    : 'Subscription fees are charged through your Apple ID or Google Play account.'}
+                </li>
+                <li>
+                  {isZh
+                    ? '訂閱將在當前週期結束時自動續訂，除非您在當前週期結束前至少 24 小時關閉自動續訂。'
+                    : 'Subscriptions automatically renew at the end of the current period unless auto-renewal is turned off at least 24 hours before the end of the current period.'}
+                </li>
+                <li>
+                  {isZh
+                    ? '您可以隨時在裝置的設定中管理或取消訂閱：iOS 請前往「設定 > Apple ID > 訂閱項目」；Android 請前往「Google Play > 訂閱」。'
+                    : 'You can manage or cancel your subscription at any time in your device settings: on iOS, go to Settings > Apple ID > Subscriptions; on Android, go to Google Play > Subscriptions.'}
+                </li>
+                <li>
+                  {isZh
+                    ? '免費試用期（如有提供）結束後，若未取消將自動轉為付費訂閱。'
+                    : 'Free trial periods, if offered, automatically convert to paid subscriptions if not canceled before the trial ends.'}
+                </li>
+                <li>
+                  {isZh
+                    ? '退款事宜請依照 Apple App Store 或 Google Play 的退款政策處理。'
+                    : 'Refunds are subject to the refund policies of the Apple App Store or Google Play Store.'}
+                </li>
+              </ul>
             </section>
 
             {/* Changes to Terms */}

@@ -17,7 +17,7 @@ function PrivacyContent() {
             {isZh ? '隱私政策' : 'Privacy Policy'}
           </h1>
           <p className="text-white/40 text-sm mb-10">
-            {isZh ? '最後更新：2025 年 1 月' : 'Last updated: January 2025'}
+            {isZh ? '最後更新：2026 年 3 月' : 'Last updated: March 2026'}
           </p>
 
           <div className="space-y-8 text-white/70 leading-relaxed">
@@ -30,6 +30,19 @@ function PrivacyContent() {
                 {isZh
                   ? 'ThetaSync（「希塔之引」）重視您的隱私。本隱私政策說明我們在您使用本應用程式時，如何收集、使用和保護您的資訊。'
                   : 'ThetaSync ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our application.'}
+              </p>
+            </section>
+
+
+            {/* Trademark Disclaimer */}
+            <section>
+              <h2 className="text-xl font-semibold text-white mb-3">
+                {isZh ? '商標聲明' : 'Trademark Disclaimer'}
+              </h2>
+              <p>
+                {isZh
+                  ? 'ThetaSync（希塔之引）是一款獨立開發的冥想與個人成長工具。本應用程式與 ThetaHealing®、THInK Institute 或任何官方療癒組織無隸屬、認證或背書關係。ThetaHealing® 是 THInK Institute 的註冊商標。應用程式中提及的冥想技巧與信念探索方法僅供個人成長參考之用。'
+                  : 'ThetaSync is an independently developed meditation and personal growth tool. This application is not affiliated with, endorsed by, or certified by ThetaHealing®, THInK Institute, or any official healing organization. ThetaHealing® is a registered trademark of THInK Institute. Meditation techniques and belief exploration methods referenced in the app are provided for personal growth purposes only.'}
               </p>
             </section>
 
@@ -99,6 +112,12 @@ function PrivacyContent() {
                   {isZh
                     ? '：用於語音辨識功能（備用方案）。錄音內容會傳送至 OpenAI 進行轉錄。'
                     : ': Used for speech recognition (fallback). Audio recordings are sent to OpenAI for transcription.'}
+                </li>
+                <li>
+                  <strong className="text-white/90">Adapty</strong>
+                  {isZh
+                    ? '：用於管理應用程式內訂閱。Adapty 會處理您的訂閱狀態和交易資訊（透過 Apple App Store / Google Play 處理），但不會收集您的個人使用資料或應用程式內容。請參閱 Adapty 的隱私政策了解詳情。'
+                    : ': Used to manage in-app subscriptions. Adapty processes your subscription status and transaction information (handled through Apple App Store / Google Play) but does not collect your personal usage data or app content. Please refer to Adapty's Privacy Policy for details.'}
                 </li>
               </ul>
               <p className="mt-3">
