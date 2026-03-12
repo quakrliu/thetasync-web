@@ -117,7 +117,7 @@ function PrivacyContent() {
                   <strong className="text-white/90">Adapty</strong>
                   {isZh
                     ? '：用於管理應用程式內訂閱。Adapty 會處理您的訂閱狀態和交易資訊（透過 Apple App Store / Google Play 處理），但不會收集您的個人使用資料或應用程式內容。請參閱 Adapty 的隱私政策了解詳情。'
-                    : ': Used to manage in-app subscriptions. Adapty processes your subscription status and transaction information (handled through Apple App Store / Google Play) but does not collect your personal usage data or app content. Please refer to Adapty's Privacy Policy for details.'}
+                    : ': Used to manage in-app subscriptions. Adapty processes your subscription status and transaction information (handled through Apple App Store / Google Play) but does not collect your personal usage data or app content. Please refer to the Adapty Privacy Policy for details.'}
                 </li>
               </ul>
               <p className="mt-3">
